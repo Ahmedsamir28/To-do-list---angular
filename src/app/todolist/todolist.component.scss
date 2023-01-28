@@ -1,0 +1,45 @@
+.todolist {
+    margin-top: -70px;
+
+    h3 {
+        margin: 110px auto 30px;
+        width: fit-content;
+        text-transform: uppercase;
+        color: white;
+    }
+.contain{
+    ul{
+        li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+            .div-1{
+                background-color: white;
+                width: 60rem;
+                height: 3rem;
+                border-radius: 10px;
+
+            }
+            .div-2{
+                input{
+                    width: 55rem;
+                    height: 3rem;
+                    border-radius: 10px;
+
+                }
+            }
+            .buttons{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                button{
+                    padding: 11px 20px;
+                }
+            }
+        }
+
+    }
+}
+}

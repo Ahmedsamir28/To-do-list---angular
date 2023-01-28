@@ -1,0 +1,36 @@
+.todoform{
+    h1{
+        margin:150px  auto  30px;
+        width: fit-content;
+        text-transform: uppercase;
+        color: white;
+    }
+    .contain{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 45px;
+        .col-6{
+            .form-group{
+                input{
+                    width: 50rem;
+                    height: 3rem;
+                    border-radius: 10px;
+                    &:focus,&:hover,&:active{
+                        border: none;
+                        border: 2px solid red;
+                    }
+                }
+            }
+        }
+        .button{
+            display: flex;
+            align-items: center;
+            gap: 35px;
+
+            button{
+                padding: 11px 20px;
+            }
+        }
+    }
+}
